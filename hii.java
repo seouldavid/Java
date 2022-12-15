@@ -4,5 +4,6 @@ public class hii {
         System.out.print("Hi :");
         Scanner scanner = new Scanner(System.in);
         System.out.print("*** " + scanner.nextLine() + " ***");
+        scanner.close();
     }
 }
