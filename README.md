@@ -5,9 +5,6 @@ Here will be my playground!
 
 
 
-
-
-"""
                                       /\
                                     ,'.'
                                    ','
@@ -23,4 +20,3 @@ Here will be my playground!
        \               \            \
         \   _.-~`'~-._ _\_.-+'`'`+-._\
       ag `,'          `---`
-"""
