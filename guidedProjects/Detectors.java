@@ -1,4 +1,4 @@
-package projects;
+package guidedProjects;
 import java.util.Scanner;
 
 
@@ -31,5 +31,6 @@ class Main {
             }
         }
         System.out.print(ship + " " + fixed + " " + rejected);
+        scanner.close();
     }
 }
