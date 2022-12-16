@@ -27,11 +27,10 @@ public class hii {
         // System.out.print("*** " + scanner.nextLine() + " ***");
         // int num = scanner.nextInt();
         // System.out.print("Result: " + num/2);
-        int inputText = scanner.nextInt();
-        if (inputText == 1) {
+        String inputText = scanner.next();
+        if (inputText.equals("tree")) {
             System.out.println("That's right!");
         }
-        System.out.println(inputText);
 
 
         scanner.close();
