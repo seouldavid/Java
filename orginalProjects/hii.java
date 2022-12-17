@@ -1,4 +1,4 @@
-package orginalProject;
+package orginalProjects;
 import java.util.Scanner;
 public class hii {
     public static void main(String[] args) {
