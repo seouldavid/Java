@@ -1,6 +1,6 @@
 package orginalProjects;
 import java.util.Scanner;
-public class hii {
+public class guessInPicture {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean loopOrNot = true;
