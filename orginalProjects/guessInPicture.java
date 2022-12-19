@@ -35,18 +35,21 @@ public class guessInPicture {
             System.out.print(asciiPicture);
         String inputText = scanner.nextLine();
         String[] figures = new String[] {"deer","deers","male deer","female deer","tree","house","animals","animal","building","buildings","exit"};
+        boolean checker = false;
         for (String figure: figures) {
             if (figure.equals("exit")) {
                 System.out.println("Exit program");
+                loopOrNot = false;
+                checker = true;
                 break;
             } else if (figure.equals(inputText)) {
-                System.out.println("You are currect!");
-                break;
-            } else {
-                System.out.println("You are wrong!");
+                System.out.println("You are correct!");
+                checker = true;
                 break;
             }
-
+        }
+        if (!checker) {
+            System.out.println("You are incorrect!");
         }
             // switch (inputText) {
             //     case "deer":
