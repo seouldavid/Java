@@ -1,7 +1,7 @@
 package orginalProjects;
 import java.util.Scanner;
 public class guessInPicture {
-    static final String asciiPicture = """
+    static final String ASCII_PICTURE = """
             \\  |  /         ___________
             ____________  \\ \\_# /         |  ___      |       _________
            |            |  \\  #/          | |   |     |      | = = = = |
@@ -32,10 +32,12 @@ public class guessInPicture {
             } catch(InterruptedException ex) {
                 Thread.currentThread().interrupt();
             }
-            System.out.print(asciiPicture);
+            System.out.print(ASCII_PICTURE);
+
         String inputText = scanner.nextLine();
         String[] figures = new String[] {"deer","deers","male deer","female deer","tree","house","animals","animal","building","buildings","exit"};
         boolean checker = false;
+        
         for (String figure: figures) {
             if (figure.equals("exit")) {
                 System.out.println("Exit program");
