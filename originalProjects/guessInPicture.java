@@ -1,4 +1,4 @@
-package orginalProjects;
+package originalProjects;
 import java.util.Scanner;
 public class guessInPicture {
     static final String ASCII_PICTURE = """
@@ -37,7 +37,7 @@ public class guessInPicture {
         String inputText = scanner.nextLine();
         String[] figures = new String[] {"deer","deers","male deer","female deer","tree","house","animals","animal","building","buildings","exit"};
         boolean checker = false;
-        
+
         for (String figure: figures) {
             if (figure.equals("exit")) {
                 System.out.println("Exit program");
