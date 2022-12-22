@@ -26,7 +26,7 @@ public class Main {
     }
     public static String convertBinaryToChar(String binaryString){
         String finalMessage = "";
-        System.out.println(binaryString);
+        // System.out.println(binaryString);
         for (int i = 0; i < binaryString.length(); i += 7) {
             finalMessage += (char) Integer.parseInt(binaryString.substring(i, i + 7), 2);
             // System.out.println(finalMessage);
