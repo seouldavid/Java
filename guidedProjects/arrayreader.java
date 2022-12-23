@@ -1,4 +1,4 @@
-package guidedProjects;
+package guidedprojects;
 import java.util.Scanner;
 
 

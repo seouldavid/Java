@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Launch test",
             "request": "launch",
+            "mainClass": "guidedprojects.test",
+            "projectName": "Java_fcaba646"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "guidedprojects.Main",
+            "projectName": "Java_fcaba646"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
             "mainClass": "originalProjects.test",
             "projectName": "Java_fcaba646"
         },

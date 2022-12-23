@@ -1,4 +1,4 @@
-package originalProjects;
+
 import java.util.Scanner;
 
 public class Main {
@@ -76,6 +76,7 @@ public class Main {
         System.out.println();
         System.out.println("The result:");
         System.out.print(convertBinaryToChar(toBinary(sentence)));
+        scanner.close();
        
     }
 }

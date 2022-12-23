@@ -1,4 +1,4 @@
-package originalProjects;
+package originalprojects;
 import java.util.Scanner;
 public class guessInPicture {
     static final String ASCII_PICTURE = """
