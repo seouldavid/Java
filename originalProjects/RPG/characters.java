@@ -1,4 +1,4 @@
-package originalprojects.RPG;
+package originalprojects.rpg;
 import java.util.Scanner;
 //practicing Object-Oriented-Programming!
 public class characters {
