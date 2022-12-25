@@ -10,7 +10,7 @@ public class Game {
         String option = scanner.nextLine();
         switch(option) {
             case "createCharacters":
-            
+            Characters character = new Characters();
             break;
         }
     }

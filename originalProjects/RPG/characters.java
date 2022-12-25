@@ -15,7 +15,8 @@ public class Characters {
         System.out.printf("%nWelcome, %s", this.name);
         this.inventory = new String[] {"old wooden sword","red potion", "blue potion"};
         this.level = 1;
-        System.out.printf("%nYour level: %d %nYour inventory: %s", this.level, this.inventory.Arrays.toString());
+        System.out.printf("%nYour level: %d %nYour inventory: %s", this.level, Arrays.toString(this.inventory));
+        scanner.close();
 
 
     }
