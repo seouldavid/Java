@@ -5,18 +5,13 @@ import java.util.Arrays;
 public class Characters {
     String[] inventory;
     String name;
-    int level;
+    int level = 1;
 
 
     Characters() {
-        System.out.println("What is your name?");
-        Scanner scanner = new Scanner(System.in);
-        this.name = scanner.nextLine();
-        System.out.printf("%nWelcome, %s", this.name);
-        this.inventory = new String[] {"old wooden sword","red potion", "blue potion"};
-        this.level = 1;
+        setUpName();
+        setFirstInventory();
         System.out.printf("%nYour level: %d %nYour inventory: %s", this.level, Arrays.toString(this.inventory));
-        scanner.close();
 
 
     }
@@ -26,11 +21,19 @@ public class Characters {
         this.level += 1;
     }
 
+    void showLevel() {
+        System.out.println(this.level);
+    }
+
     void setUpName() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Whats is your name? : ");
         this.name = scanner.nextLine();
+        System.out.printf("%nWelcome, %s", this.name);
         scanner.close();
+    }
+    void setFirstInventory() {
+        this.inventory = new String[] {"old wooden sword","red potion", "blue potion"};
     }
 
 
