@@ -1,4 +1,4 @@
-package originalprojects.rpg;
+package original.oop;
 import java.util.Scanner;
 import java.util.Arrays;
 //practicing Object-Oriented-Programming!
