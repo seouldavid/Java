@@ -1,7 +1,7 @@
 package guidedprojects;
 import java.util.Scanner;
 
-public class Main {
+public class Cipher {
     public static String toBinary(String message) {
         String[] arrayOfZeros = message.split(" ");
         String binaryString = "";
