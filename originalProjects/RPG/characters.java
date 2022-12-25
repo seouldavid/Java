@@ -1,15 +1,15 @@
 package originalprojects.rpg;
 import java.util.Scanner;
 //practicing Object-Oriented-Programming!
-public class characters {
+public class Characters {
     String[] inventory;
     String name;
     int level;
     
-    public void levelUp() {
+    void levelUp() {
         this.level += 1;
     }
-    public void setUpName() {
+    void setUpName() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Whats is your name? : ");
         this.name = scanner.nextLine();
