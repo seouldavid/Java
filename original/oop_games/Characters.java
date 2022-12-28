@@ -1,9 +1,10 @@
-package original.oop;
+package original.oop_games;
 import java.util.Scanner;
 import java.util.Arrays;
 //practicing Object-Oriented-Programming!
 public class Characters {
     String[] inventory;
+    String[] skills;
     String name;
     int level = 1;
 
@@ -11,7 +12,9 @@ public class Characters {
     Characters() {
         setUpName();
         setFirstInventory();
-        System.out.printf("%nYour level: %d %nYour inventory: %s", this.level, Arrays.toString(this.inventory));
+        setSkills();
+        System.out.printf("%nYour level: %d %nYour inventory: %s %n Your skills: %s"
+        , this.level, Arrays.toString(this.inventory),Arrays.toString(this.skills));
 
 
     }
@@ -34,6 +37,10 @@ public class Characters {
     }
     void setFirstInventory() {
         this.inventory = new String[] {"old wooden sword","red potion", "blue potion"};
+    }
+
+    void setSkills() {
+        this.skills =new String[] {"wield-beginnerLevel"};
     }
 
 

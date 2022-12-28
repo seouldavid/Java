@@ -1,5 +1,5 @@
-package guidedprojects;
-public class Main {
+package guided;
+public class Test {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
