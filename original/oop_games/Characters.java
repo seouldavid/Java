@@ -13,7 +13,7 @@ public class Characters {
         setUpName();
         setFirstInventory();
         setSkills();
-        System.out.printf("%nYour level: %d %nYour inventory: %s %n Your skills: %s"
+        System.out.printf("%nYour level: %d %nYour inventory: %s %nYour skills: %s"
         , this.level, Arrays.toString(this.inventory),Arrays.toString(this.skills));
 
 
