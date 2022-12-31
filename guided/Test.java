@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 class Test {
   public static void main(String[] args) {
-    File file = new File("datacollection\\dataset.txt");
+    File file = new File("guided\\datacollection\\dataset.txt");
     int total = 0;
     try(Scanner scanner = new Scanner(file)) {
       while(scanner.hasNext()) {
