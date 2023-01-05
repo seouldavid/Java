@@ -1,22 +1,19 @@
 package guided;
-import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
-class Test {
-  public static void main(String[] args) {
-    File file = new File("guided\\datacollection\\dataset.txt");
-    int total = 0;
-    try(Scanner scanner = new Scanner(file)) {
-      while(scanner.hasNext()) {
-        int temp = scanner.nextInt();
-        if (temp > total) {
-          total = temp; 
-        }
-      }
+import java.util.*;
 
-    } catch (FileNotFoundException e) {
-      System.out.println("file not found");
+public class Test {
+    public static int abs(int a, int b) {
+        if (a - b < 0) {
+            return -1 * (a - b);
+        } else {
+            return a - b;
+        }
     }
-    System.out.println(total);
-  }
+    public static void main(String[] args) {
+        // write your code here
+        Scanner scanner = new Scanner(System.in);
+        String line = scanner.nextLine();
+        String[] numList = line.split(" ");
+        System.out.println(numList.toString());
+    }
 }
