@@ -11,9 +11,14 @@ public class Test {
     }
     public static void main(String[] args) {
         // write your code here
-        Scanner scanner = new Scanner(System.in);
-        String line = scanner.nextLine();
-        String[] numList = line.split(" ");
-        System.out.println(numList.toString());
+        Scanner scanner = new Scanner( System.in);
+        ArrayList<Integer> nums = new ArrayList<>();
+        while (scanner.hasNextInt()) {
+          int temp = scanner.nextInt();
+          System.out.println(temp);
+          nums.add(Integer.valueOf(temp));
+        }
+        System.out.println("hi");
+        scanner.close();
     }
 }
