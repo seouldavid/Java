@@ -11,7 +11,7 @@ public class Test {
     }
     public static void getSortedArray(ArrayList<Integer> nums, ArrayList<Integer> sortedNums, 
     ArrayList<Integer> differences, int compare) {
-        for (int element : nums) {
+        for (Integer element : nums) {
             // int Element = element;
             differences.add(abs(element,compare));
         }
