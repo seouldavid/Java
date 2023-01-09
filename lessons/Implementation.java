@@ -1,4 +1,4 @@
-package guided;
+package lessons;
 
 interface Implementation {
     //public abstract method

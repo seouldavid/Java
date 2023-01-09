@@ -1,4 +1,4 @@
-package guided;
+package lessons;
 import java.util.Scanner;
 
 public class Cipher {

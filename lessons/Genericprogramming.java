@@ -1,4 +1,4 @@
-package guided;
+package lessons;
 
 public class Genericprogramming<T> {
 
